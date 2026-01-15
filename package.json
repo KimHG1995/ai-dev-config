@@ -1,0 +1,8 @@
+{
+  "name": "ai-dev-config",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "jsonc-parser": "^3.3.1"
+  }
+}
