@@ -1,18 +1,19 @@
 {
   // Base OpenCode settings shared across all projects.
+  // - 환경별 URL/포트는 overlay에서 정의한다.
+  // - 기본 활성화: sequential-thinking, taskmaster
+  // - 기본 비활성화: tavily, context7 (필요 시 overlay 또는 프로젝트에서 켠다)
   "mcpServers": {
     "sequential-thinking": {
-      "url": "http://localhost:3333"
+      "enabled": true
     },
     "taskmaster": {
-      "url": "http://localhost:3334"
+      "enabled": true
     },
     "tavily": {
-      "url": "http://localhost:3335",
       "enabled": false
     },
     "context7": {
-      "url": "http://localhost:3336",
       "enabled": false
     }
   }

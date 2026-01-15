@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "sequential-thinking": {
+      "url": "http://localhost:4333"
+    },
+    "taskmaster": {
+      "url": "http://localhost:4334"
+    },
+    "tavily": {
+      "url": "http://localhost:4335",
+      "enabled": false
+    },
+    "context7": {
+      "url": "http://localhost:4336",
+      "enabled": false
+    }
+  }
+}
