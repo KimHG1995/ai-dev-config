@@ -1,0 +1,14 @@
+{
+  "agents": {
+    "default": {
+      "role": "senior-backend-automation",
+      "policies": [
+        "Use personal ai-dev-config as SSOT",
+        "Apply project differences via overlays",
+        "Keep MCP servers disabled unless explicitly needed",
+        "Do not hardcode API keys in config",
+        "Prefer minimal, safe changes"
+      ]
+    }
+  }
+}
